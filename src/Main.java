@@ -1,8 +1,8 @@
-import java.util.ArrayList;
-abstract  class  Employee{
-    private String name;
-
-    private  int id ;
+//import java.util.ArrayList;
+//abstract  class  Employee{
+//    private String name;
+//
+//    private  int id ;
 
     public Employee(String name, int id){
         this.name = name;
@@ -105,5 +105,6 @@ public class Main {
         payRollSystem.removeEmployee(2);
         System.out.println("Remianing employee");
         payRollSystem.displayEmployee();
+
     }
 }
