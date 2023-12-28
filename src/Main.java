@@ -106,11 +106,5 @@ public class Main {
         payRollSystem.removeEmployee(2);
         System.out.println("Remianing employee");
         payRollSystem.displayEmployee();
-
-
-
-//        int[] arr = {12,25,35,45};
-//        System.out.println(arr.toString());
-
     }
 }
