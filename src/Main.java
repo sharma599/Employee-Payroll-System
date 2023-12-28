@@ -1,8 +1,8 @@
-//import java.util.ArrayList;
-//abstract  class  Employee{
-//    private String name;
-//
-//    private  int id ;
+import java.util.ArrayList;
+abstract  class  Employee{
+    private String name;
+
+    private  int id ;
 
     public Employee(String name, int id){
         this.name = name;
@@ -24,6 +24,7 @@
     public String toString(){
         return  "Employee[name =" +name +", id =" + id + ", salary ="+ calculateSalary() +"]";
     }
+
 }
 class  FullTimeEmployee extends Employee{
 
@@ -105,6 +106,11 @@ public class Main {
         payRollSystem.removeEmployee(2);
         System.out.println("Remianing employee");
         payRollSystem.displayEmployee();
+
+
+
+//        int[] arr = {12,25,35,45};
+//        System.out.println(arr.toString());
 
     }
 }
